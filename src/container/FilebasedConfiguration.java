@@ -7,10 +7,10 @@ public class FilebasedConfiguration implements Configuration{
 	
 	public FilebasedConfiguration(String configurationFilePath) {
 	
-		readConfigurationFromFile();
+		readConfigurationFromFile(configurationFilePath);
 	}
 	
-	private void readConfigurationFromFile() {
+	private void readConfigurationFromFile(String configurationFilePath) {
 		// TODO implement reading configuration from file
 		
 	}

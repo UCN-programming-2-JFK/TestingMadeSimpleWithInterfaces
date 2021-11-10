@@ -12,13 +12,11 @@ public class ConfigurationStub implements Configuration{
 	
 	@Override
 	public int getNumberOfWeeksWhichDefinesNewCustomers() {
-		// TODO Auto-generated method stub
-		return 0;
+		return numberOfWeeksWhichDefinesNewCustomer;
 	}
 	
 	private void setNumberOfWeeksWhichDefinesNewCustomers(int numberOfWeeks) {
 		
 		this.numberOfWeeksWhichDefinesNewCustomer = numberOfWeeks;
 	}
-
 }

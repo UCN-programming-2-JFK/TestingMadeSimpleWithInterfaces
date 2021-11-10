@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>10</zoom_level>
+  <zoom_level>11</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>530</x>
-      <y>180</y>
-      <w>650</w>
-      <h>190</h>
+      <x>935</x>
+      <y>99</y>
+      <w>715</w>
+      <h>209</h>
     </coordinates>
     <panel_attributes>controller::EasyToUnitTestCustomerController
 --
@@ -27,10 +27,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1300</x>
-      <y>180</y>
-      <w>350</w>
-      <h>140</h>
+      <x>1782</x>
+      <y>99</y>
+      <w>385</w>
+      <h>154</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 interfaces::CustomerContainer
@@ -47,14 +47,14 @@ bg=#eeffff</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1180</x>
-      <y>590</y>
-      <w>380</w>
-      <h>140</h>
+      <x>1650</x>
+      <y>550</y>
+      <w>418</w>
+      <h>154</h>
     </coordinates>
     <panel_attributes>testing::CustomerContainerStub
 --
-~customers = new ArrayList&lt;Customer&gt;(): List&lt;Customer&gt;
+-customers = new ArrayList&lt;Customer&gt;(): List&lt;Customer&gt;
 --
 +getAllCustomers(): List&lt;Customer&gt;
 +addCustomer(Customer customer): void
@@ -65,10 +65,10 @@ bg=white</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1450</x>
-      <y>390</y>
-      <w>350</w>
-      <h>120</h>
+      <x>1947</x>
+      <y>330</y>
+      <w>385</w>
+      <h>132</h>
     </coordinates>
     <panel_attributes>container::DatabaseCustomerContainer
 --
@@ -84,10 +84,10 @@ bg=white</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>670</x>
-      <y>590</y>
-      <w>490</w>
-      <h>120</h>
+      <x>1089</x>
+      <y>550</y>
+      <w>539</w>
+      <h>132</h>
     </coordinates>
     <panel_attributes>testing::ConfigurationStub
 --
@@ -103,10 +103,10 @@ bg=white</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>250</x>
-      <y>590</y>
-      <w>380</w>
-      <h>110</h>
+      <x>1463</x>
+      <y>363</y>
+      <w>418</w>
+      <h>121</h>
     </coordinates>
     <panel_attributes>container::FilebasedConfiguration
 --
@@ -121,10 +121,10 @@ bg=white</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>530</x>
-      <y>430</y>
-      <w>370</w>
-      <h>90</h>
+      <x>935</x>
+      <y>374</y>
+      <w>407</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 interfaces::Configuration
@@ -138,27 +138,10 @@ bg=#eeffff</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>710</x>
-      <y>30</y>
-      <w>260</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>&lt;&lt;interface&gt;&gt;
-interfaces::CustomerController
---
---
-~getNewCustomers(): List&lt;Customer&gt;
---
-bg=#eeffff</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>110</x>
-      <y>180</y>
-      <w>340</w>
-      <h>70</h>
+      <x>198</x>
+      <y>77</y>
+      <w>374</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>controller::ImpossibleToUnitTestCustomerController
 --
@@ -171,10 +154,10 @@ bg=#eeffff</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1550</x>
-      <y>310</y>
-      <w>30</w>
-      <h>100</h>
+      <x>2057</x>
+      <y>242</y>
+      <w>33</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
@@ -182,10 +165,10 @@ bg=#eeffff</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1170</x>
-      <y>240</y>
-      <w>150</w>
-      <h>30</h>
+      <x>1639</x>
+      <y>165</y>
+      <w>165</w>
+      <h>33</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
@@ -193,21 +176,10 @@ bg=#eeffff</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>820</x>
-      <y>110</y>
-      <w>30</w>
-      <h>90</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>700</x>
-      <y>360</y>
-      <w>30</w>
-      <h>90</h>
+      <x>1122</x>
+      <y>297</y>
+      <w>33</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
@@ -215,10 +187,10 @@ bg=#eeffff</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>740</x>
-      <y>510</y>
-      <w>30</w>
-      <h>100</h>
+      <x>1166</x>
+      <y>462</y>
+      <w>33</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
@@ -226,21 +198,21 @@ bg=#eeffff</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>550</x>
-      <y>510</y>
-      <w>30</w>
-      <h>100</h>
+      <x>1331</x>
+      <y>396</y>
+      <w>154</w>
+      <h>33</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+    <additional_attributes>10.0;10.0;120.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>650</x>
-      <y>560</y>
-      <w>930</w>
-      <h>190</h>
+      <x>1067</x>
+      <y>517</y>
+      <w>1023</w>
+      <h>209</h>
     </coordinates>
     <panel_attributes>STUBS
 bg=yellow
@@ -250,23 +222,101 @@ bg=yellow
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>290</x>
-      <y>60</y>
-      <w>440</w>
-      <h>140</h>
+      <x>1969</x>
+      <y>451</y>
+      <w>33</w>
+      <h>121</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>420.0;10.0;10.0;120.0</additional_attributes>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>22</x>
+      <y>242</y>
+      <w>451</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>container::FilebasedConfiguration
+--
+--
++FilebasedConfiguration(String configurationFilePath): ctor
+-readConfigurationFromFile(String configurationFilePath): void
++getNumberOfWeeksWhichDefinesNewCustomers(): int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>495</x>
+      <y>242</y>
+      <w>385</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>container::DatabaseCustomerContainer
+--
+--
++getAllCustomers(): List&lt;Customer&gt;
++deleteCustomer(Customer customerToDelete): void
++updateCustomer(Customer customerToUpdate): void
++addCustomer(Customer customer): void
+--
+</panel_attributes>
+    <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1470</x>
-      <y>500</y>
-      <w>30</w>
-      <h>110</h>
+      <x>264</x>
+      <y>143</y>
+      <w>121</w>
+      <h>121</h>
     </coordinates>
-    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;instantiate&gt;&gt;
+instantiation</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>517</x>
+      <y>143</y>
+      <w>121</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt;&lt;instantiate&gt;&gt;
+instantiation</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>913</x>
+      <y>55</y>
+      <w>1430</w>
+      <h>704</h>
+    </coordinates>
+    <panel_attributes>EASY TO TEST
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>55</y>
+      <w>891</w>
+      <h>396</h>
+    </coordinates>
+    <panel_attributes>IMPOSSIBLE TO TEST
+
+</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>

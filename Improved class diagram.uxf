@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>344</x>
+      <y>72</y>
+      <w>520</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>controller::EasyToUnitTestCustomerController
+--
+-customerContainer: CustomerContainer
+-configuration: Configuration
+--
++EasyToUnitTestCustomerController(CustomerContainer container, Configuration configuration): ctor
++getNewCustomers(): List&lt;Customer&gt;
+#getCustomerContainer(): CustomerContainer
+#setCustomerContainer(CustomerContainer customerContainerr): void
+#getConfiguration(): Configuration
+#setConfiguration(Configuration configuration): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>336</x>
+      <y>272</y>
+      <w>280</w>
+      <h>112</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+interfaces::CustomerContainer
+--
+--
+~getAllCustomers(): List&lt;Customer&gt;
+~deleteCustomer(Customer customerToDelete): void
+~updateCustomer(Customer customerToUpdate): void
+~addCustomer(Customer customer): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>336</x>
+      <y>424</y>
+      <w>280</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>container::DatabaseCustomerContainer
+--
+--
++getAllCustomers(): List&lt;Customer&gt;
++deleteCustomer(Customer customerToDelete): void
++updateCustomer(Customer customerToUpdate): void
++addCustomer(Customer customer): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>728</x>
+      <y>552</y>
+      <w>400</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>testing::ConfigurationStub
+--
+-numberOfWeeksWhichDefinesNewCustomer: int
+--
++ConfigurationStub(int numberOfWeeksWhichDefinesNewCustomer): ctor
++getNumberOfWeeksWhichDefinesNewCustomers(): int
+-setNumberOfWeeksWhichDefinesNewCustomers(int numberOfWeeks): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>656</x>
+      <y>376</y>
+      <w>320</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>container::FilebasedConfiguration
+--
+--
++FilebasedConfiguration(String configurationFilePath): ctor
+-readConfigurationFromFile(String configurationFilePath): void
++getNumberOfWeeksWhichDefinesNewCustomers(): int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>336</x>
+      <y>552</y>
+      <w>304</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>testing::CustomerContainerStub
+--
+~customers = new ArrayList&lt;Customer&gt;(): List&lt;Customer&gt;
+--
++getAllCustomers(): List&lt;Customer&gt;
++addCustomer(Customer customer): void
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>720</x>
+      <y>272</y>
+      <w>296</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;interface&gt;&gt;
+interfaces::Configuration
+--
+--
+~getNumberOfWeeksWhichDefinesNewCustomers(): int
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>992</x>
+      <y>336</y>
+      <w>24</w>
+      <h>232</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;270.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>808</x>
+      <y>336</y>
+      <w>24</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>464</x>
+      <y>376</y>
+      <w>24</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>464</x>
+      <y>512</y>
+      <w>24</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>792</x>
+      <y>216</y>
+      <w>32</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>464</x>
+      <y>216</y>
+      <w>32</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>304</x>
+      <y>536</y>
+      <w>840</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>SimpleClass</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

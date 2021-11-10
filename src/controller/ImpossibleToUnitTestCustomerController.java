@@ -7,9 +7,8 @@ import container.FilebasedConfiguration;
 import interfaces.*;
 import model.Customer;
 
-public class ImpossibleToUnitTestCustomerController implements CustomerController {
+public class ImpossibleToUnitTestCustomerController {
 	
-	@Override
 	public List<Customer> getNewCustomers() {
 		
 		//PROBLEM - this method instantiates the objects it depends on: DatabaseCustomerContainer and FilebasedConfiguration
